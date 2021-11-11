@@ -1,6 +1,6 @@
 # Kuru Studio Design
 
-> Our very own design system. Made with create-react-library.
+Our very own design system. Made with create-react-library. Inspired by [Ant Design](https://ant.design/)!
 
 [![NPM](https://img.shields.io/npm/v/kuru-studio-design.svg)](https://www.npmjs.com/package/kuru-studio-design) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
