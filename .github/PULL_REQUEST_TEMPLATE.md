@@ -1,4 +1,4 @@
-# Issue Title
+# Story Title
 
 [This is the Issue Title](https://github.com/kuru-studio/kuru-studio-design/issues/1)
 
