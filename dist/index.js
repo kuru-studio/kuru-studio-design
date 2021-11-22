@@ -12,10 +12,13 @@ var ExampleAtom = function ExampleAtom(_ref) {
 var styles$1 = {"test":"_3-ooI"};
 
 var InputAtom = function InputAtom(_ref) {
-  var text = _ref.text;
-  return React.createElement("div", {
-    className: styles$1.test
-  }, "Input Atom: ", text);
+  var type = _ref.type,
+      value = _ref.value;
+  return React.createElement("input", {
+    className: styles$1.test,
+    type: type,
+    value: value
+  });
 };
 
 var styles$2 = {"test":"_3p0-i"};

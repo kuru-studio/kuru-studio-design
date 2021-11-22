@@ -2,9 +2,10 @@ import * as React from 'react'
 import styles from '../styles/InputAtom.module.css'
 
 interface Props {
-  text: string
+  type: string
+  value: string
 }
 
-export const InputAtom = ({ text }: Props) => {
-  return <div className={styles.test}>Input Atom: {text}</div>
+export const InputAtom = ({ type, value }: Props) => {
+  return <input className={styles.test} type={type} value={value} />
 }
