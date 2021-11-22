@@ -1,5 +1,5 @@
 interface Props {
-    text: string;
+    children: any;
 }
-export declare const FormMolecule: ({ text }: Props) => JSX.Element;
+export declare const FormMolecule: ({ children }: Props) => JSX.Element;
 export {};

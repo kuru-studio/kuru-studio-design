@@ -21,10 +21,10 @@ var InputAtom = function InputAtom(_ref) {
 var styles$2 = {"test":"_3p0-i"};
 
 var FormMolecule = function FormMolecule(_ref) {
-  var text = _ref.text;
+  var children = _ref.children;
   return React.createElement("div", {
     className: styles$2.test
-  }, "Form Molecule: ", text);
+  }, children);
 };
 
 exports.ExampleAtom = ExampleAtom;
