@@ -7453,10 +7453,12 @@
   "resolved" "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   "version" "3.0.3"
 
-"kuru-studio-design@^1.0.0":
-  "integrity" "sha512-csP0/5L+wYqFzztI+hraoXN04ZLuksmA+Mzb3HxMDw466dEN6aTWgEIaKleUA9HtXvjnurfzGBnPECUYyIUi/g=="
-  "resolved" "https://registry.npmjs.org/kuru-studio-design/-/kuru-studio-design-1.0.0.tgz"
-  "version" "1.0.0"
+"kuru-studio-design@^1.0.0", "kuru-studio-design@^1.0.2":
+  "integrity" "sha512-HTexqiu74W0dkKatgMgKCse27UC7AbWKq+OdKAlcwiu/wH36sZNhR8ILQ6Rmo5goFNCjxRFNcnGsz3S+Jy1l+w=="
+  "resolved" "https://registry.npmjs.org/kuru-studio-design/-/kuru-studio-design-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "kuru-studio-design" "^1.0.0"
 
 "last-call-webpack-plugin@^3.0.0":
   "integrity" "sha512-7KI2l2GIZa9p2spzPIVZBYyNKkN+e/SQPpnjlTiPhdbDW3F86tdKKELxKpzJ5sgU19wQWsACULZmpTPYHeWO5w=="
@@ -10044,7 +10046,7 @@
   optionalDependencies:
     "fsevents" "2.1.2"
 
-"react@*", "react@^16.13.1", "react@^16.14.0":
+"react@*", "react@^16.0.0", "react@^16.13.1", "react@^16.14.0":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   "version" "16.14.0"
