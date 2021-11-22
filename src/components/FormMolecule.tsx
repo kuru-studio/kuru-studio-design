@@ -6,7 +6,5 @@ interface Props {
 }
 
 export const FormMolecule = ({ children }: Props) => {
-  return (
-    <div className={styles.test}>{ children }</div>
-  )
+  return <div className={styles.test}>{children}</div>
 }
