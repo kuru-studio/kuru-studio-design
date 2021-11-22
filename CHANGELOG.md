@@ -1,3 +1,15 @@
+# v1.0.3 (Mon Nov 22 2021)
+
+#### 🐛 Bug Fix
+
+- Feature #9: Form Component [#10](https://github.com/kuru-studio/kuru-studio-design/pull/10) ([@BosEriko](https://github.com/BosEriko))
+
+#### Authors: 1
+
+- Bos Eriko Reyes ([@BosEriko](https://github.com/BosEriko))
+
+---
+
 # v1.0.2 (Fri Nov 19 2021)
 
 #### 🐛 Bug Fix
