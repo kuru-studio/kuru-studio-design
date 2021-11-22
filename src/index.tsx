@@ -1,10 +1,6 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+// ANCHOR: Atoms Import
+export { ExampleAtom } from "./components/ExampleAtom"
+export { InputAtom } from "./components/InputAtom"
 
-interface Props {
-  text: string
-}
-
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+// ANCHOR: Molecules Import
+export { FormMolecule } from "./components/FormMolecule"

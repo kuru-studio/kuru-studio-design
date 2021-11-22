@@ -61,6 +61,6 @@
     "dist"
   ],
   "dependencies": {
-    "kuru-studio-design": "^1.0.0"
+    "kuru-studio-design": "^1.0.2"
   }
 }
