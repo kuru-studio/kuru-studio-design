@@ -4,5 +4,8 @@
   "description": "Our very own design system.",
   "author": "Kuru Studio",
   "license": "MIT",
-  "repository": "kuru-studio/kuru-studio-design"
+  "repository": "kuru-studio/kuru-studio-design",
+  "scripts": {
+    "build": "rollup src/main.js --file dist/main.js --format iife"
+  }
 }
