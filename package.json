@@ -7,7 +7,7 @@
   "repository": "kuru-studio/kuru-studio-design",
   "main": "dist/main.js",
   "scripts": {
-    "build": "rollup --config rollup.config.js",
+    "build": "rollup -c",
     "watch": "yarn build -w"
   },
   "peerDependencies": {
