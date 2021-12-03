@@ -7,6 +7,8 @@
   "repository": "kuru-studio/kuru-studio-design",
   "main": "dist/index.js",
   "scripts": {
+    "build": "rollup -c",
+    "develop": "yarn build -w",
     "lint": "eslint src/**/*.{tsx,ts}",
     "lint-fix": "eslint src/**/*.{tsx,ts} -- --fix"
   },
