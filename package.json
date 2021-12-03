@@ -5,6 +5,7 @@
   "author": "Kuru Studio",
   "license": "MIT",
   "repository": "kuru-studio/kuru-studio-design",
+  "main": "dist/main.js",
   "scripts": {
     "build": "rollup --config rollup.config.js",
     "watch": "yarn build -w"
