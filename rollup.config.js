@@ -16,6 +16,7 @@ export default {
       name: 'main.esm'
     },
   ],
+  external: ["react", "react-dom"],
   plugins: [
     commonjs(),
     typescript(),

@@ -2,6 +2,6 @@
 import ExampleComponent from "./ExampleComponent";
 
 // ANCHOR: Export Modules
-export default {
+export {
   ExampleComponent
 };

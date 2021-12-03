@@ -1,14 +1,8 @@
 import * as React from 'react';
 
 function ExampleComponent() {
-    var greeting = 'Hello Function Component!';
+    var greeting = 'Example 1';
     return React.createElement('h1', null, [greeting]);
 }
 
-// ANCHOR: Import Modules
-// ANCHOR: Export Modules
-var main = {
-    ExampleComponent: ExampleComponent
-};
-
-export { main as default };
+export { ExampleComponent };

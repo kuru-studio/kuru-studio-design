@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('react')) :
-    typeof define === 'function' && define.amd ? define(['react'], factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, (global.main = global.main || {}, global.main.umd = factory(global.React)));
-})(this, (function (React) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('react')) :
+    typeof define === 'function' && define.amd ? define(['exports', 'react'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory((global.main = global.main || {}, global.main.umd = {}), global.React));
+})(this, (function (exports, React) { 'use strict';
 
     function _interopNamespace(e) {
         if (e && e.__esModule) return e;
@@ -25,16 +25,12 @@
     var React__namespace = /*#__PURE__*/_interopNamespace(React);
 
     function ExampleComponent() {
-        var greeting = 'Hello Function Component!';
+        var greeting = 'Example 1';
         return React__namespace.createElement('h1', null, [greeting]);
     }
 
-    // ANCHOR: Import Modules
-    // ANCHOR: Export Modules
-    var main = {
-        ExampleComponent: ExampleComponent
-    };
+    exports.ExampleComponent = ExampleComponent;
 
-    return main;
+    Object.defineProperty(exports, '__esModule', { value: true });
 
 }));

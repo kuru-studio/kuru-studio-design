@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 function ExampleComponent() {
-  const greeting = 'Hello Function Component!';
+  const greeting = 'Example 1';
 
   return <h1>{greeting}</h1>;
 }
