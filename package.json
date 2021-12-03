@@ -6,7 +6,10 @@
   "license": "MIT",
   "repository": "kuru-studio/kuru-studio-design",
   "main": "dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint src/**/*.{tsx,ts}",
+    "lint-fix": "eslint src/**/*.{tsx,ts} -- --fix"
+  },
   "peerDependencies": {
     "react": "*",
     "react-dom": "*"
