@@ -8,6 +8,14 @@
   "scripts": {
     "build": "rollup src/main.js --file dist/main.js --format iife"
   },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
     "rollup": "^2.60.2"
   }
