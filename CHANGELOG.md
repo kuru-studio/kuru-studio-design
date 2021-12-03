@@ -1,3 +1,15 @@
+# v1.0.4 (Fri Dec 03 2021)
+
+#### 🐛 Bug Fix
+
+- Feature #14: Rewrite using Rollup [#16](https://github.com/kuru-studio/kuru-studio-design/pull/16) ([@BosEriko](https://github.com/BosEriko))
+
+#### Authors: 1
+
+- Bos Eriko Reyes ([@BosEriko](https://github.com/BosEriko))
+
+---
+
 # v1.0.3 (Mon Nov 22 2021)
 
 #### 🐛 Bug Fix
