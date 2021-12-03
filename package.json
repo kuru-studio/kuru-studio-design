@@ -5,7 +5,8 @@
   "author": "Kuru Studio",
   "license": "MIT",
   "repository": "kuru-studio/kuru-studio-design",
-  "main": "dist/index.js",
+  "main": "dist/main.umd.js",
+  "module": "dist/main.esm.js",
   "scripts": {
     "build": "rollup -c",
     "develop": "yarn build -w",
