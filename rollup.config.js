@@ -1,21 +1,24 @@
 import typescript from '@rollup/plugin-typescript';
 import commonjs from '@rollup/plugin-commonjs';
-import pkg from './package.json';
+import jsx from 'rollup-plugin-jsx';
 
 export default {
   input: 'src/main.ts',
   output: [
     {
-      file: pkg.main,
+      file: 'dist/main.umd.js',
       format: 'umd',
+      name: 'main.umd'
     },
     {
-      file: pkg.module,
+      file: 'dist/main.esm.js',
       format: 'esm',
+      name: 'main.esm'
     },
   ],
   plugins: [
     commonjs(),
     typescript(),
+    jsx({factory: 'React.createElement'})
   ],
 };
