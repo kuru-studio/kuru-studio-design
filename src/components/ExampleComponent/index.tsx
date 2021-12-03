@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ExampleComponent() {
+export function ExampleComponent() {
   return (
     <div>
       Example!
