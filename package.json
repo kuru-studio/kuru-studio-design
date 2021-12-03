@@ -6,7 +6,8 @@
   "license": "MIT",
   "repository": "kuru-studio/kuru-studio-design",
   "scripts": {
-    "build": "rollup src/main.js --file dist/main.js --format iife"
+    "build": "rollup --config rollup.config.js",
+    "watch": "yarn build -w"
   },
   "peerDependencies": {
     "react": "^17.0.2",
