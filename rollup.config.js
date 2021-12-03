@@ -3,5 +3,6 @@ export default {
   output: {
     file: 'dist/main.js',
     format: 'cjs'
-  }
+  },
+  external: ["react", "react-dom"]
 };
