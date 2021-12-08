@@ -1,7 +1,7 @@
 // ANCHOR: Import Modules
-import ExampleComponent from "./ExampleComponent";
+import Example from "./components/Example";
 
 // ANCHOR: Export Modules
 export {
-  ExampleComponent
+  Example
 };

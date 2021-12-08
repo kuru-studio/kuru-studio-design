@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-function ExampleComponent() {
-    var greeting = 'Example 1';
-    return React.createElement('h1', null, [greeting]);
+function Example(_a) {
+    var children = _a.children;
+    return React.createElement('div', null, [children]);
 }
 
-export { ExampleComponent };
+export { Example };

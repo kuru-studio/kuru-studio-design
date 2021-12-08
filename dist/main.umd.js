@@ -24,12 +24,12 @@
 
     var React__namespace = /*#__PURE__*/_interopNamespace(React);
 
-    function ExampleComponent() {
-        var greeting = 'Example 1';
-        return React__namespace.createElement('h1', null, [greeting]);
+    function Example(_a) {
+        var children = _a.children;
+        return React__namespace.createElement('div', null, [children]);
     }
 
-    exports.ExampleComponent = ExampleComponent;
+    exports.Example = Example;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
