@@ -1,3 +1,15 @@
+# v1.0.5 (Wed Dec 08 2021)
+
+#### 🐛 Bug Fix
+
+- Task #17: Add instructions to README.md for local setup [#18](https://github.com/kuru-studio/kuru-studio-design/pull/18) ([@BosEriko](https://github.com/BosEriko))
+
+#### Authors: 1
+
+- Bos Eriko Reyes ([@BosEriko](https://github.com/BosEriko))
+
+---
+
 # v1.0.4 (Fri Dec 03 2021)
 
 #### 🐛 Bug Fix
