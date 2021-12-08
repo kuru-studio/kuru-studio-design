@@ -1,3 +1,15 @@
+# v1.0.6 (Wed Dec 08 2021)
+
+#### ⚠️ Pushed to `master`
+
+- Hotfix: Move ExampleComponent to its proper folder ([@BosEriko](https://github.com/BosEriko))
+
+#### Authors: 1
+
+- Bos Eriko Reyes ([@BosEriko](https://github.com/BosEriko))
+
+---
+
 # v1.0.5 (Wed Dec 08 2021)
 
 #### 🐛 Bug Fix
