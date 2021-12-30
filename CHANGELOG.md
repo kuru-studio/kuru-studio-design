@@ -1,3 +1,15 @@
+# v1.0.7 (Thu Dec 30 2021)
+
+#### ⚠️ Pushed to `master`
+
+- Hotfix: Move to @kuru-studio/design from kuru-studio-design ([@BosEriko](https://github.com/BosEriko))
+
+#### Authors: 1
+
+- Bos Eriko Reyes ([@BosEriko](https://github.com/BosEriko))
+
+---
+
 # v1.0.6 (Wed Dec 08 2021)
 
 #### ⚠️ Pushed to `master`
