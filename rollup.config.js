@@ -8,15 +8,21 @@ export default {
     {
       file: 'dist/main.umd.js',
       format: 'umd',
-      name: 'main.umd'
+      name: 'main.umd',
+      globals: {
+        antd: 'antd'
+      }
     },
     {
       file: 'dist/main.esm.js',
       format: 'esm',
-      name: 'main.esm'
+      name: 'main.esm',
+      globals: {
+        antd: 'antd'
+      }
     },
   ],
-  external: ["react", "react-dom", "antd"],
+  external: ['react', 'react-dom', 'antd'],
   plugins: [
     commonjs(),
     typescript(),
