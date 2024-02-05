@@ -1,7 +1,5 @@
 // ANCHOR: Import Modules
-import Example from "./components/Example";
+import Atom from "./components/atoms";
 
 // ANCHOR: Export Modules
-export {
-  Example
-};
+export { Atom };
